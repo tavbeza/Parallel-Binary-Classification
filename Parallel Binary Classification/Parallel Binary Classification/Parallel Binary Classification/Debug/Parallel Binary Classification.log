@@ -1,0 +1,8 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol _MPI_Scatter referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _MPI_Comm_size referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _MPI_Comm_rank referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _MPI_Init referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _MPI_Finalize referenced in function _main
+C:\Program Files\MPICH2\lib\mpi.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\Parallel Binary Classification\Parallel Binary Classification\Debug\Parallel Binary Classification.exe : fatal error LNK1120: 5 unresolved externals
